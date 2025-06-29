@@ -1,0 +1,16 @@
+# Employee Management System Output
+
+## Sample Output of `sp_GetEmployeesByDepartment 3`
+
+| EmployeeID | FirstName | LastName | DepartmentID | Salary  | JoinDate   |
+|------------|-----------|----------|--------------|---------|------------|
+| 3          | Michael   | Johnson  | 3            | 7000.00 | 2018-07-30 |
+| 5          | Alice     | Brown    | 3            | 6500.00 | 2023-06-01 |
+
+---
+
+## Sample Output of `sp_GetEmployeesByDepartment 1`
+
+| EmployeeID | FirstName | LastName | DepartmentID | Salary  | JoinDate   |
+|------------|-----------|----------|--------------|---------|------------|
+| 1          | John      | Doe      | 1            | 5000.00 | 2020-01-15 |
