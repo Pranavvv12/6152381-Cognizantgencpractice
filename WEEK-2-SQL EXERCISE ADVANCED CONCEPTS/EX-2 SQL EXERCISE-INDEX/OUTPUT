@@ -1,0 +1,29 @@
+# Index Exercises — Expected Output
+
+## Exercise 1: Non-Clustered Index on ProductName
+
+### Before and After Index
+
+| ProductID | ProductName | Category    | Price   |
+|-----------|-------------|-------------|---------|
+| 1         | Laptop      | Electronics | 1200.00 |
+
+---
+
+## Exercise 2: Clustered Index on OrderDate
+
+### Before and After Index
+
+| OrderID | CustomerID | OrderDate  |
+|---------|------------|------------|
+| 1       | 1          | 2023-01-15 |
+
+---
+
+## Exercise 3: Composite Index on CustomerID and OrderDate
+
+### Before and After Index
+
+| OrderID | CustomerID | OrderDate  |
+|---------|------------|------------|
+| 1       | 1          | 2023-01-15 |

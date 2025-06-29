@@ -1,0 +1,47 @@
+ROW_NUMBER() Output
+Always 3 rows per category  ties are broken arbitrarily.
+
+RankType	ProductID	ProductName	Category	Price	RankValue
+ROW_NUMBER()	1	Laptop Pro 15"	Electronics	1500.00	1
+ROW_NUMBER()	2	Smartphone X	Electronics	1000.00	2
+ROW_NUMBER()	4	4K Monitor	Electronics	500.00	3
+ROW_NUMBER()	10	Couch	Furniture	700.00	1
+ROW_NUMBER()	17	Ergonomic Desk	Furniture	700.00	2
+ROW_NUMBER()	6	Gaming Chair	Furniture	350.00	3
+ROW_NUMBER()	12	Leather Jacket	Apparel	150.00	1
+ROW_NUMBER()	13	Sneakers	Apparel	120.00	2
+ROW_NUMBER()	18	Hoodie	Apparel	120.00	3
+
+
+
+RANK() Output
+(More than 3 rows per category when ties occur)
+
+Category	ProductName	Price	RankValue
+Apparel	Leather Jacket	150.00	1
+Apparel	Sneakers	120.00	2
+Apparel	Hoodie	120.00	2
+Electronics	Laptop Pro 15"	1500.00	1
+Electronics	Smartphone X	1000.00	2
+Electronics	4K Monitor	500.00	3
+Electronics	Wireless Earbuds	500.00	3
+Furniture	Couch	700.00	1
+Furniture	Ergonomic Desk	700.00	1
+Furniture	Gaming Chair	350.00	3
+
+🥇 DENSE_RANK() Output
+
+
+Category	ProductName	Price	RankValue
+Apparel	Leather Jacket	150.00	1
+Apparel	Sneakers	120.00	2
+Apparel	Hoodie	120.00	2
+Apparel	Jeans	80.00	3
+Electronics	Laptop Pro 15"	1500.00	1
+Electronics	Smartphone X	1000.00	2
+Electronics	4K Monitor	500.00	3
+Electronics	Wireless Earbuds	500.00	3
+Furniture	Couch	700.00	1
+Furniture	Ergonomic Desk	700.00	1
+Furniture	Gaming Chair	350.00	2
+Furniture	Office Chair	250.00	3
