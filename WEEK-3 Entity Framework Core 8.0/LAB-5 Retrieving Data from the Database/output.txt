@@ -1,0 +1,6 @@
+All Products:
+Laptop - ₹75000
+Rice Bag - ₹1200
+
+Found: Laptop
+Expensive: Laptop
