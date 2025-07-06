@@ -1,0 +1,4 @@
+Product List:
+
+Laptop (Electronics) - Stock: 10
+Apple (Groceries) - Stock: 50
