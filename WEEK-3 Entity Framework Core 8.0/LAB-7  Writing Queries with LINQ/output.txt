@@ -1,0 +1,5 @@
+Filtered & Sorted Products (Price > 1000):
+Laptop - ₹70000
+
+Product DTOs (Name & Price):
+Laptop - ₹70000
