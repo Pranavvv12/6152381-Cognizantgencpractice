@@ -1,0 +1,8 @@
+URL:
+GET https://localhost:5001/api/values
+
+Response:
+[
+  "value1",
+  "value2"
+]
