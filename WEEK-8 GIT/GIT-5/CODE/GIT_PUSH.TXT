@@ -1,0 +1,53 @@
+Git Lab Task – Step-by-Step Explanation
+
+Step 1: Verify if 'master' is in a clean state
+
+Command:
+git checkout master
+git status
+
+Expected Output:
+- If successful, you’ll see: “On branch master” and “nothing to commit, working tree clean”.
+- If ‘master’ doesn't exist or throws an error, ensure it has at least one commit.
+
+Step 2: List out all the available branches
+
+Command:
+git branch -a
+
+Expected Output:
+- A list of branches, for example:
+  * master
+    Git-T03-HOL_002
+    remotes/origin/master
+    remotes/origin/Git-T03-HOL_002
+
+Step 3: Pull the remote Git repository to the master
+
+Command:
+git pull origin master
+
+Expected Output:
+- You’ll see Git fetching and merging any changes from the remote 'master' into your local 'master'. If everything is up-to-date, it will say: “Already up to date.”
+
+Step 4: Push the changes from “Git-T03-HOL_002” to the remote repository
+
+Command:
+git checkout Git-T03-HOL_002
+git status
+git add .
+git commit -m "Committing pending changes from Git-T03-HOL_002"
+git push origin Git-T03-HOL_002
+
+Expected Output:
+- If there are changes, they will be pushed to the remote repository under the branch ‘Git-T03-HOL_002’.
+
+Step 5: Observe if the changes are reflected in the remote repository
+
+Command:
+git fetch origin
+git log origin/Git-T03-HOL_002 --oneline
+
+Expected Output:
+- The recent commits should appear, confirming that the push in Step 4 was successful.
+- Alternatively, go to GitHub and select the ‘Git-T03-HOL_002’ branch to verify the changes.
