@@ -1,0 +1,14 @@
+Branching: 
+1.Create a new branch “GitNewBranch”. 
+2.List all the local and remote branches available in the current trunk. Observe the “*” mark which denote the current pointing branch. 
+3.Switch to the newly created branch. Add some files to it with some contents.
+4.Commit the changes to the branch.
+5.Check the status with “git status” command.
+
+Merging: 
+1.Switch to the master
+2.List out all the differences between trunk and branch. These provide the differences in command line interface.
+3.List out all the visual differences between master and branch using P4Merge tool.
+4.Merge the source branch to the trunk.
+5.Observe the logging after merging using “git log –oneline –graph –decorate”
+6.Delete the branch after merging with the trunk and observe the git status.
