@@ -1,0 +1,34 @@
+Step 1: Setup your machine with Git Configuration
+
+To create a new repository, signup with GitLab and register your credentials
+Login to GitLab and create a “GitDemo” project 
+
+1.To check if Git client is installed properly: Open Git bash shell and execute 
+
+C:\Users\SEC>git version
+git version 2.46.0.windows.1
+
+If output shows Git with its version information that indicates, that Git Client installs properly.
+
+2.To configure user level configuration of user ID and email ID execute 
+
+C:\Users\SEC>git config --global user.name "BALUREDDYVELAYUDHAMGOWTHAM"
+C:\Users\SEC>git config --global user.email "gowthambv6029@gmail.com"
+
+3.To check if the configuration is properly set, execute the following command.
+
+C:\Users\SEC>git config --global --list
+user.name=BALUREDDYVELAYUDHAMGOWTHAM
+user.email=gowthambv6029@gmail.com
+
+Step 2: Integrate notepad++.exe to Git and make it a default editor
+
+1.To check, if notepad++.exe execute from Git bash
+
+C:\Users\SEC>notepad++
+'notepad++' is not recognized as an internal or external command,
+operable program or batch file.
+
+If Git bash could not able to recognize notepad++ command that implies notepad++.exe is note added to the environment path variable. 
+
+To add path of notepad++.exe to environment variable, go to control panel -> System -> Advanced System settings. Go to Advanced tab -> Environment variables -> Add path of notepad++.exe to the path user variable by clicking on “Edit”

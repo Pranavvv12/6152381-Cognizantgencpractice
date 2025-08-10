@@ -1,0 +1,32 @@
+PS C:\Users\SEC\Desktop\DNCOGNIZANT> cd .\DN4.0_DotNet_6412300_HandsOn\
+PS C:\Users\SEC\Desktop\DNCOGNIZANT\DN4.0_DotNet_6412300_HandsOn> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   Week_01_DP_Algorithms_6412300/HandsOn01_Singletonpattern/Code_Singleton/Singleton/SingletonDemo/obj/Debug/net9.0/SingletonDemo.AssemblyInfo.cs
+        modified:   Week_01_DP_Algorithms_6412300/HandsOn01_Singletonpattern/Code_Singleton/Singleton/SingletonDemo/obj/Debug/net9.0/SingletonDemo.AssemblyInfoInputs.cache
+        new file:   Week_08_Git_LOC/HandsOn01_Clean_Push/Code/git_01.txt
+        new file:   Week_08_Git_LOC/HandsOn01_Clean_Push/Output/git_loc_01.png
+        new file:   Week_08_Git_LOC/HandsOn01_Clean_Push/Output/git_loc_02.png
+        new file:   Week_08_Git_LOC/HandsOn01_Clean_Push/Output/git_loc_03.png
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    Week_08_Git_LOC/HandsOn01_Clean_Push/Code/git_01.txt
+        deleted:    Week_08_Git_LOC/HandsOn01_Clean_Push/Output/git_loc_01.png
+        deleted:    Week_08_Git_LOC/HandsOn01_Clean_Push/Output/git_loc_02.png
+        deleted:    Week_08_Git_LOC/HandsOn01_Clean_Push/Output/git_loc_03.png
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Week_08_Git_LOC/HandsOn01_Install_Git/
+        Week_08_Git_LOC/HandsOn02_GitIgnore/
+        Week_08_Git_LOC/HandsOn05_Clean_Push/
+
+
+EXPLANATION:
+
+When you use .gitignore the files mentioned in the git ignore is ignored and did not pushed into the github or the repository.This helps when it comes to large data like node modules which is not necessary to push as the other side user will use npm install to install the node modules whereas if we transfer it it requires large data and time.

@@ -1,0 +1,12 @@
+﻿The .NET Framework is a software development framework developed by Microsoft that provides a runtime environment and a set of libraries and tools for building and running applications on Windows operating systems. The .NET framework is primarily used on Windows, while .NET Core (which evolved into just .NET starting from version 5) is cross-platform. The framework supports multiple programming languages, such as C#, F#, and VB.NET, and supports a range of application types, including desktop, web, mobile, cloud, and gaming applications.
+
+Main Components of .NET Framework
+
+
+Common Language Runtime(CLR):
+
+The CLR is the heart of the .NET Framework, acting as a virtual machine that runs the code and manages various services such as memory management, security, and thread management. Code that is compiled and executed within the CLR is called "Managed Code," while code that the CLR does not manage is known as "Unmanaged Code."
+.NET Framework Class Library (FCL):
+
+The FCL provides a large set of reusable classes and methods for application development.
+This includes libraries for input/output operations, networking, data access, UI controls, and more.
