@@ -12,14 +12,14 @@ If output shows Git with its version information that indicates, that Git Client
 
 2.To configure user level configuration of user ID and email ID execute 
 
-C:\Users\SEC>git config --global user.name "BALUREDDYVELAYUDHAMGOWTHAM"
-C:\Users\SEC>git config --global user.email "gowthambv6029@gmail.com"
+C:\Users\SEC>git config --global user.name "Pranavvv12"
+C:\Users\SEC>git config --global user.email "pranavk2004915@gmail.com"
 
 3.To check if the configuration is properly set, execute the following command.
 
 C:\Users\SEC>git config --global --list
-user.name=BALUREDDYVELAYUDHAMGOWTHAM
-user.email=gowthambv6029@gmail.com
+user.name=Pranavvv12
+user.email=pranavk2004915@gmail.com
 
 Step 2: Integrate notepad++.exe to Git and make it a default editor
 
